@@ -6,7 +6,7 @@ A tool for describing procedural DOM animations and exporting them as CSS. Inclu
 
 ![Anim+ DevTools demo](docs/media/demo.gif)
 
-[Anim+ language standard](https://github.com/dev-denis-korsunov/animplus)
+[Anim+ language standard](https://github.com/dev-denis-korsunov/animplus) · [Website runtime](https://github.com/dev-denis-korsunov/animplus.js)
 
 ## Build and install
 
@@ -21,4 +21,4 @@ Open `chrome://extensions`, enable **Developer mode**, and choose **Load unpacke
 npm test
 ```
 
-`packages/editor` contains the extension; `packages/runtime` contains the bundled Anim+ engine so this repository builds independently. The [playground](https://github.com/dev-denis-korsunov/animplus.js) contains the DOM targets for the examples, including the cursor-following dog.
+`packages/editor` contains the extension; `packages/runtime` contains the bundled Anim+ engine so this repository builds independently.
