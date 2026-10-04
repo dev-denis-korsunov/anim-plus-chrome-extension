@@ -1,6 +1,6 @@
 # Anim+ Chrome Extension
 
-A DevTools editor for DOM animations: text commands, an interactive Bezier editor, a timeline, live mouse bindings, and CSS export.
+A tool for describing procedural DOM animations and exporting them as CSS. Includes a DevTools text editor, interactive Bezier curves, a timeline, and live mouse bindings.
 
 ## Demo
 
