@@ -2,6 +2,12 @@
 
 A DevTools editor for DOM animations: text commands, an interactive Bezier editor, a timeline, live mouse bindings, and CSS export.
 
+## Demo
+
+[![Anim+ DevTools demo](docs/media/demo.gif)](docs/media/demo.mp4)
+
+[Watch the full-size video](docs/media/demo.mp4) · [Anim+ language standard](https://github.com/dev-denis-korsunov/animplus)
+
 ## Build and install
 
 Requires Node.js 22.12+.
