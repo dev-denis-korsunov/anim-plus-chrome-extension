@@ -4,7 +4,7 @@ A tool for describing procedural DOM animations and exporting them as CSS. Inclu
 
 ## Demo
 
-[Watch the full-size video](docs/media/demo.mp4)
+![Anim+ DevTools demo](docs/media/demo.gif)
 
 [Anim+ language standard](https://github.com/dev-denis-korsunov/animplus)
 
