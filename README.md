@@ -4,11 +4,11 @@ A tool for describing procedural DOM animations and exporting them as CSS. Inclu
 
 ## Demo
 
-[Watch the full-size video](docs/media/demo.mp4) · [Anim+ language standard](https://github.com/dev-denis-korsunov/animplus)
+[Watch the full-size video](docs/media/demo.mp4)
+
+[Anim+ language standard](https://github.com/dev-denis-korsunov/animplus)
 
 ## Build and install
-
-Requires Node.js 22.12+.
 
 ```sh
 npm ci
