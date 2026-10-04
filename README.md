@@ -4,8 +4,6 @@ A DevTools editor for DOM animations: text commands, an interactive Bezier edito
 
 ## Demo
 
-[![Anim+ DevTools demo](docs/media/demo.gif)](docs/media/demo.mp4)
-
 [Watch the full-size video](docs/media/demo.mp4) · [Anim+ language standard](https://github.com/dev-denis-korsunov/animplus)
 
 ## Build and install
