@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", "module": "NodeNext", "moduleResolution": "NodeNext", "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "strict": true, "declaration": true, "sourceMap": true, "outDir": "dist", "rootDir": "src", "skipLibCheck": true
+  },
+  "include": ["src/bridge.ts", "src/protocol.ts", "src/presets.ts", "src/extension/command-source.ts", "src/extension/inject.ts"]
+}

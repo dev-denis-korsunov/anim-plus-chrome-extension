@@ -1,0 +1,27 @@
+{
+  "name": "anim-plus-chrome-extension",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w animplus && npm run build -w @animplus/editor",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.3.4",
+    "@types/node": "26.6.3",
+    "@vitejs/plugin-vue": "6.0.9",
+    "esbuild": "0.28.2",
+    "peggy": "5.1.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.2",
+    "vue-tsc": "3.3.11"
+  },
+  "version": "0.1.0-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dev-denis-korsunov/anim-plus-chrome-extension.git"
+  }
+}

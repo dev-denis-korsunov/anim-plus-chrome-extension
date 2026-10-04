@@ -1,0 +1,11 @@
+node_modules/
+dist/
+packages/editor/extension/*.js
+packages/editor/extension/assets/
+packages/editor/extension/panel.html
+packages/editor/extension/devtools.html
+test-results/
+coverage/
+*.tgz
+.DS_Store
+.idea/

@@ -1,0 +1,47 @@
+{
+  "name": "animplus",
+  "version": "0.1.0-dev",
+  "description": "Anim+ procedural animation runtime and DOM adapter, written in TypeScript",
+  "type": "module",
+  "private": true,
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./dom": {
+      "types": "./dist/dom-adapter.d.ts",
+      "import": "./dist/dom-adapter.js"
+    },
+    "./object": {
+      "types": "./dist/object-adapter.d.ts",
+      "import": "./dist/object-adapter.js"
+    },
+    "./examples/dog": {
+      "types": "./dist/examples/dog.d.ts",
+      "import": "./dist/examples/dog.js"
+    },
+    "./language": {
+      "types": "./dist/language.d.ts",
+      "import": "./dist/language.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "docs",
+    "examples"
+  ],
+  "scripts": {
+    "build": "peggy --format es --allowed-start-rules Document,Expression -o dist/generated-parser.js grammar/animplus.peggy && tsc",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dev-denis-korsunov/animplus.js.git"
+  }
+}

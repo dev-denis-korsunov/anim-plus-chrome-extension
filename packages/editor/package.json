@@ -1,0 +1,27 @@
+{
+  "name": "@animplus/editor",
+  "version": "0.1.0-dev",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/bridge.d.ts",
+      "import": "./dist/bridge.js"
+    }
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "6.20.3",
+    "@codemirror/commands": "6.11.1",
+    "@codemirror/language": "6.12.4",
+    "@codemirror/lint": "6.9.7",
+    "@codemirror/state": "6.7.6",
+    "@codemirror/view": "6.43.13",
+    "@lezer/highlight": "1.2.5",
+    "animplus": "0.1.0-dev",
+    "codemirror": "6.0.2",
+    "vue": "3.5.43"
+  },
+  "scripts": {
+    "build": "tsc && vue-tsc --noEmit -p tsconfig.panel.json && esbuild src/extension/inject.ts --bundle --format=iife --outfile=extension/bridge.js && vite build"
+  }
+}

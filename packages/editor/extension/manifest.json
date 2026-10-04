@@ -1,0 +1,5 @@
+{
+  "manifest_version": 3, "name": "Anim+ DevTools", "version": "0.1.0",
+  "description": "Vue-based procedural DOM animation editor and timeline in browser DevTools.",
+  "devtools_page": "devtools.html"
+}
